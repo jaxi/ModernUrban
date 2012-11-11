@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		51D01D2F164AA0D6006F944F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 51D01D2E164AA0D6006F944F /* main.c */; };
 		51D01D31164AA0D6006F944F /* ModernUrban.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51D01D30164AA0D6006F944F /* ModernUrban.1 */; };
+		51D01D38164AA0F4006F944F /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D01D37164AA0F4006F944F /* GLUT.framework */; };
+		51D01D3A164AA0FF006F944F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D01D39164AA0FF006F944F /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,8 @@
 		51D01D2A164AA0D6006F944F /* ModernUrban */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ModernUrban; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D01D2E164AA0D6006F944F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		51D01D30164AA0D6006F944F /* ModernUrban.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ModernUrban.1; sourceTree = "<group>"; };
+		51D01D37164AA0F4006F944F /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../../../../System/Library/Frameworks/GLUT.framework; sourceTree = "<group>"; };
+		51D01D39164AA0FF006F944F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = ../../../../../../System/Library/Frameworks/OpenGL.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D01D38164AA0F4006F944F /* GLUT.framework in Frameworks */,
+				51D01D3A164AA0FF006F944F /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +66,8 @@
 		51D01D2D164AA0D6006F944F /* ModernUrban */ = {
 			isa = PBXGroup;
 			children = (
+				51D01D39164AA0FF006F944F /* OpenGL.framework */,
+				51D01D37164AA0F4006F944F /* GLUT.framework */,
 				51D01D2E164AA0D6006F944F /* main.c */,
 				51D01D30164AA0D6006F944F /* ModernUrban.1 */,
 			);
